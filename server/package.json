@@ -1,0 +1,15 @@
+{
+  "name": "auto-redial-server",
+  "version": "1.0.0",
+  "description": "Server that uses Twilio to perform reliable redial attempts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "twilio": "^4.14.0",
+    "uuid": "^9.0.0"
+  }
+}
